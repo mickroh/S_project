@@ -10,8 +10,9 @@
 </head>
 <body>
 	<div align="center" >
-		<h1 style="color:burlywood; font-size:60px; font-family:Gabriola;">
-			CARE &nbsp; LAB
+		<h1 style="color:#1DDB16; font-size:60px; font-family:Gabriola;">
+			Street &nbsp; Cleaner
+		<!-- nbsp = 공백 --> 
 		</h1>
 	</div>
 	<div align="right">

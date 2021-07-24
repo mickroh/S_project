@@ -9,8 +9,8 @@
 <body>
  <div align="center" style="padding-top:100px;">
 <hr>
-<i style="color:pink; font-size:30px; font-family:Gabriola;">
-Copyright ⓒ CARE Lab. All rights reserved.</i>
+<i style="color:lime; font-size:30px; font-family:Gabriola;">
+Copyright ⓒ Street Cleaner. All rights reserved.</i>
 </div>
  
 </body>

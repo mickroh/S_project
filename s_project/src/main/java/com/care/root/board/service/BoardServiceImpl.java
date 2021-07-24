@@ -21,15 +21,15 @@ import com.care.root.mybatis.board.BoardMapper;
 public class BoardServiceImpl implements BoardService{
 	@Autowired BoardMapper mapper;
 	public String selectAllBoardList(Model model, int num) {
-		int pageLetter = 3; //한 페이지 몇개의 글을 보여줄지
+		int pageLetter = 5; //한 페이지 몇개의 글을 보여줄지
 		int allCount = mapper.selectBoardCount();
 		int repeat = allCount / pageLetter;
 		if (allCount / pageLetter != 0) {
 			repeat += 1;
 		}
 		
-		int end = num * pageLetter;
-		int start = end + 1 - pageLetter;
+		int end = num * pageLetter; 
+		int start = end + 1 - pageLetter; 
 		
 		model.addAttribute("num",num);
 		model.addAttribute("repeat",repeat);

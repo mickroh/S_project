@@ -7,16 +7,45 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.buttoncolor{
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+}
+.buttoncolor:hover{
+	background-color: #4CAF50;
+	color:white;
+}
+.testbutton{
+	font-size: 15px;
+    
+}
+
+</style>
 <body>
 <c:import url="../default/header.jsp"/>
 	<div align="right">
 	<form action="user_check" method="post">
-		<input type="text" name="id" placeholder="input id"><br>
-		<input type="text" name="pw" placeholder="input password"><br>
-		<input type="submit" name="" value="로그인">
+		<input type="text" class="testbutton" name="id" placeholder="아이디"><br>
+		<input type="text" class="testbutton" name="pw" placeholder="비밀번호"><br>
+		<input type="submit" class="button buttoncolor" name="" value="로그인">
 		<a href="register_form">회원가입</a><br>
 		<input type="checkbox" name="autoLogin">
-		로그인 유지
+		<b> 로그인 상태 유지 </b>
 	</form>
 	</div>
 <c:import url="../default/footer.jsp"/>
