@@ -43,15 +43,15 @@
 	<c:import url="../default/header.jsp" />
 	<div style="width: 300px; margin: 0 auto;">
 		<form id="fo" action="register" method="post">
-			<input type="text" name="id" placeholder="input id"><br>
-			<input type="text" name="pw" placeholder="input pw"><br>
-			<input type="text" id="addr1" name="addr" placeholder="우편번호">
-			<input type="button" onclick="daumpost()" value="주소검색"><br>
-			<input type="text" id="addr2" placeholder="주 소"> <input
-				type="text" id="addr3" placeholder="상 세 주 소"><br> <input
-				type="button" onclick="register()" value="register">
+			<input type="text" style="vertical-align:10px" name="id" placeholder="아이디"><br>
+			<input type="text" style="vertical-align:10px" name="pw" placeholder="비밀번호"><br>
+			<input type="text" style="vertical-align:10px"id="addr1" name="addr" placeholder="우편번호">
+			<input type="button" style="vertical-align:10px" onclick="daumpost()" value="주소검색"><br>
+			<input type="text" style="vertical-align:10px" id="addr2" placeholder="주 소"> 
+			<input type="text" style="vertical-align:10px" id="addr3" placeholder="상 세 주 소"><br>
+			<input type="button" style="vertical-align:10px" onclick="register()" value="register">
 		</form>
 	</div>
-	<c:import url="../default/header.jsp" />
+	<c:import url="../default/footer.jsp" />
 </body>
 </html>

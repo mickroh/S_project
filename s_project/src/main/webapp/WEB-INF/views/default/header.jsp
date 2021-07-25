@@ -5,7 +5,7 @@
 <html>
 <head>
 	<style type="text/css">
-		ul li{	display:inline;	padding:0 10px; }
+		ul li{	display:inline;	padding:0 10px;}
 	</style>
 </head>
 <body>
