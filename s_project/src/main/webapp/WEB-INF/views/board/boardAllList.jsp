@@ -8,11 +8,21 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+table{
+	border-color:#A6A6A6;
+}
+
+</style>
 </head>
 <body>
 	<c:import url="../default/header.jsp"/>
 <div align="center">
 	<table border="1">
+		<colgroup>
+        <col style="width:150px;" span="3">
+       	
+    	</colgroup>
 		<tr>
 			<th>번호</th> <th>id</th> <th>제목</th> <th>날짜</th>
 			<th>조회수</th> <th>image_file_name</th>
