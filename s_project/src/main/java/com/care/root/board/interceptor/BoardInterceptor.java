@@ -22,7 +22,7 @@ public class BoardInterceptor extends
 		if(session.getAttribute(LOGIN) == null) {
 			response.setContentType("text/html; charset=utf-8");
 			PrintWriter out = response.getWriter();
-			out.print("<script>alert('로그인 후 글쓰기 기능'); "+"location.href='/root/member/login'; </script>");
+			out.print("<script>alert('로그인 후 글쓰기 가능'); "+"location.href='/root/member/login'; </script>");
 			return false;
 		}
 		return true;

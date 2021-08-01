@@ -37,6 +37,8 @@
     $("#addr1").val(addr)
     fo.submit()
     alert('회원가입이 성공적으로 완료되었습니다')
+    
+    
 	}
 	$(function(){
 	    $('#userPw').keyup(function(){
@@ -55,13 +57,14 @@
 
 	    });
 	});
-
+	
 </script>
 </head>
 <style>
 .v-align{
 	vertical-align:10px;
 }
+
 </style>
 <body>
 	<c:import url="../default/header.jsp" />
@@ -78,6 +81,8 @@
 			<input type="button" class="v-align" onclick="register()" value="register">
 		</form>
 	</div>
+	
 	<c:import url="../default/footer.jsp" />
+	</div>
 </body>
 </html>

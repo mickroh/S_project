@@ -11,6 +11,12 @@
 <style>
 table{
 	border-color:#A6A6A6;
+	border: 3px solid lime;
+	text-align: left; 
+	
+}	
+div {
+	overflow: hidden;
 	
 }
 
@@ -45,7 +51,7 @@ table{
 		</c:forEach>
 		<tr>
 			<td colspan="6" align="right">
-				<div align="left">
+				<div align="center" font-size="50px">
 				<c:if test="${num > 1 }">
 					<a href="boardAllList?num=${num-1 }">
 					이전

@@ -26,6 +26,7 @@ $("#key").keyup(function() {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  position: relative;
   
 }
 .buttoncolor{
@@ -40,13 +41,16 @@ $("#key").keyup(function() {
 .testbutton{
 	font-size: 15px;
 }
+#v-align{
+	vertical-align:10px;
+}
 
 </style>
 <body>
 <c:import url="../default/header.jsp"/>
 	<div align="right">
 	<form action="user_check" method="post">
-		<input type="text" class="testbutton" name="id" placeholder="아이디"><br>
+		<input type="text" class="testbutton" id="v-align" name="id" placeholder="아이디"><br>
 		<input autocomplete="false" type="password" class="testbutton" name="pw" id="key" placeholder="비밀번호"/>
 		<br>
 		<input type="submit" class="button buttoncolor" name="" value="로그인">
