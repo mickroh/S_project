@@ -11,7 +11,7 @@
 <hr>
 <i style="color:lime; font-size:30px; font-family:Gabriola;">
 Copyright ⓒ Street Cleaner. All rights reserved.</i>
-</div>
+</div>	
  
 </body>
 </html>
