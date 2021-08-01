@@ -11,6 +11,7 @@
 <style>
 table{
 	border-color:#A6A6A6;
+	
 }
 
 </style>

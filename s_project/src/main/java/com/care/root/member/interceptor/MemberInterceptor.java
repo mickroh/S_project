@@ -11,10 +11,8 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import com.care.root.member.session_name.MemberSessionName;
 
-
-
-public class MemberInterceptor extends HandlerInterceptorAdapter{
-
+public class MemberInterceptor extends
+						HandlerInterceptorAdapter{
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
@@ -23,17 +21,25 @@ public class MemberInterceptor extends HandlerInterceptorAdapter{
 			//response.sendRedirect("login");
 			response.setContentType("text/html;charset=utf-8");
 			PrintWriter out = response.getWriter();
-out.print("<script>alert('로그인이 필요합니다');location.href='member/login';</script>");
+out.print("<script>alert('로그인이 필요합니다');location.href='login';</script>");
 			return false;
 		}
-		System.out.println("prehandle 실행");
+		System.out.println("preHandle 실행");
 		return true;
 	}
-
 	@Override
 	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
 			ModelAndView modelAndView) throws Exception {
-		System.out.println("posthandle 실행");
+		System.out.println("postHandle 실행");
 	}
-	
 }
+
+
+
+
+
+
+
+
+
+
