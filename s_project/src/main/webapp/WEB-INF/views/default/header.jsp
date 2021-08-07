@@ -3,19 +3,34 @@
     <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
+<style>
+body {
+    margin: 0;
+    
+}
+
+li {
+	color: #03C75A;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+</style>
 <head>
 	<style type="text/css">
 		ul li{	display:inline;	padding:0 10px;}
 	</style>
 </head>
+
 <body>
 	<div align="center" >
-		<h1 style="color:#1DDB16; font-size:60px; font-family:Gabriola;">
+		<h1 style="color:#03C75A; font-size:60px; font-family:Gabriola;">
 			Street &nbsp; Cleaner
 		<!-- nbsp = 공백 --> 
 		</h1>
 	</div>
-	<div align="right">
+	<div align="right" style="background-color: #EAEAEA;">
 		<hr>
 		<ul>
 			<li><a href="/root/index">HOME</a></li>
@@ -37,6 +52,7 @@
 		</ul>
 		<hr>
 	</div>
+	
 </body>
 
 </html>

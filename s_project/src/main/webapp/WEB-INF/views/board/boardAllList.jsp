@@ -7,7 +7,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<c:url var="getBoardListURL" value="/board/boardAllList"></c:url>
+
 <style>
 table{
 	border-color:#A6A6A6;
@@ -73,7 +74,6 @@ div {
 		</tr>
 	</table>
 </div>
-	
 	<c:import url="../default/footer.jsp"/>
 </body>
 </html>

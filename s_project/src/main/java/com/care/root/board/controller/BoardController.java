@@ -29,8 +29,9 @@ public class BoardController {
 	@RequestMapping("boardAllList")
 	public String selectAllBoardList(Model model,
 			@RequestParam(value="num", required=false, defaultValue="1")int num) {
-		bs.selectAllBoardList(model, num);
 		
+		bs.selectAllBoardList(model, num);
+
 		return "board/boardAllList";
 	}
 	@RequestMapping("writeForm")

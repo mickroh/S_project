@@ -15,9 +15,9 @@ $("#key").keyup(function() {
 </head>
 <style>
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #03C75A; /* Green */
   border: none;
-  color: white;
+  color: #FFFFFF;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -54,7 +54,7 @@ $("#key").keyup(function() {
 		<input autocomplete="false" type="password" class="testbutton" name="pw" id="key" placeholder="비밀번호"/>
 		<br>
 		<input type="submit" class="button buttoncolor" name="" value="로그인">
-		<a href="register_form">회원가입</a><br>
+		<a href="register_form" style="color:#03C75A">회원가입</a><br>
 		<input type="checkbox" name="autoLogin">
 		<b> 로그인 상태 유지 </b> <br>
 		

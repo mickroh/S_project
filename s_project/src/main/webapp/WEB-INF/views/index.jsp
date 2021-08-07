@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>	
+	
 	<c:import url="default/footer.jsp"/>
 	<c:import url="default/header.jsp"/>
 	<c:import url="default/main.jsp"/>

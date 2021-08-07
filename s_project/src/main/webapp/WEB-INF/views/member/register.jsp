@@ -64,7 +64,26 @@
 .v-align{
 	vertical-align:10px;
 }
-
+.regibutton{
+	vertical-align:10px;
+	width:175px;
+	color:#FFFFFF;
+	background-color:#03C75A;
+	padding: 15px 30px;
+	margin: 4px 2px;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+#btnjoin {
+    border: none;
+    outline:none;
+}
+.addsearch{
+	color:#FFFFFF;
+	background-color:#03C75A;
+	vertical-align:10px;
+}
 </style>
 <body>
 	<c:import url="../default/header.jsp" />
@@ -75,10 +94,10 @@
 			<input type="password" class="v-align" id="userPwChk" name="pw"  placeholder="비밀번호 재확인"><br>
 			<font id="chkNotice" size="2"></font><br>
 			<input type="text" class="v-align" id="addr1" name="addr" placeholder="우편번호">
-			<input type="button" class="v-align" onclick="daumpost()" value="주소검색"><br>
+			<input type="button" id=btnjoin class="addsearch" onclick="daumpost()" value="주소검색"><br>
 			<input type="text" class="v-align" id="addr2" placeholder="주 소"> 
 			<input type="text" class="v-align" id="addr3" placeholder="상 세 주 소"><br>
-			<input type="button" class="v-align" onclick="register()" value="register">
+			<input type="button" id=btnjoin class="regibutton" onclick="register()" value="가입하기">
 		</form>
 	</div>
 	
