@@ -40,7 +40,7 @@
 				slide_hide();
 				replyData();
 			}, error: function(){
-				alert('문제 발생!!!')
+				alert('로그인 후 답글 가능')
 			}
 		})
 	}
